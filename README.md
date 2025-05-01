@@ -3,6 +3,8 @@
 
 This project reproduces the results of Paul Baran's foundational research on network robustness using a Monte-Carlo simulation approach. It was developed as part of a lab for the **Architecture of Computer Networks** course at HEPIA.
 
+![Topology sample](docs/graph_result.png)
+
 ---
 
 ## 📌 Summary
