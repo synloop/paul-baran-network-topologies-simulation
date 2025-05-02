@@ -76,3 +76,4 @@ The script generates graphs showing survival rates as node‑failure probability
 
 ## 📄 License
 Released under the **MIT License**. See the `LICENSE` file for details.
+📝 Final grade received for this project: **5.8 / 6.0** (Swiss grading system)
