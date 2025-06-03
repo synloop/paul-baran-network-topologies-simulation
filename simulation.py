@@ -9,7 +9,7 @@ def generate_topology(R, grid_size=18):
     elif R == 2:
         G = nx.grid_2d_graph(grid_size, grid_size)  # Grille simple
     elif R == 3:
-        G = nx.grid_2d_graph(grid_size, grid_size) #puis je fais en sorte qu'il y'ai à chaque fois le bon nombre de liens par noeuds
+        G = nx.grid_2d_graph(grid_size, grid_size) #puis je fais en sorte qu'il y ait à chaque fois le bon nombre de liens par noeuds
         for node in list(G.nodes()):
             if 0 < node[0] <= grid_size - 1 and 0 < node[1] <= grid_size - 1:
                 if (node[0] + 1, node[1] + 1) in G:
