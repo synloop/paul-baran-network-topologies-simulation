@@ -74,6 +74,13 @@ The script generates graphs showing survival rates as node‑failure probability
 
 ---
 
+### What I Learned
+* **Network resilience matters :** Paul Baran’s 1964 work showed that redundancy lets a distributed mesh survive random failures—an idea I verified in code. :contentReference[oaicite:0]{index=0}  
+* **Python graph tooling :** Using NetworkX gave me hands-on practice building, analysing and visualising large graphs programmatically. :contentReference[oaicite:1]{index=1}  
+* **Monte-Carlo thinking :** Running thousands of failure scenarios taught me why statistical simulation is essential for stress-testing real-world networks. :contentReference[oaicite:2]{index=2}
+
+---
+
 ## License
 Released under the **MIT License**. See the `LICENSE` file for details.
 
